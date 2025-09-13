@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morgan Isadia | Web3 Writer & Creator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Morgan Isadia</h1>
+    <p>Web3 & Crypto Writer | Video Creator | Scriptwriter</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#writing">Writing</a>
+      <a href="#video">Video & Scripts</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate writer focused on Web3, blockchain, and emerging crypto trends, with a creative edge in video storytelling and scriptwriting. I turn complex topics into engaging, human-centered content.</p>
+  </section>
+
+  <section id="writing">
+    <h2>Writing Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="card">
+        <h3>Title of Web3 Article</h3>
+        <p>Short description of what it's about (e.g., "Exploring DeFi Trends in 2025").</p>
+        <a href="#">Read Article</a>
+      </div>
+      <!-- Repeat more cards -->
+    </div>
+  </section>
+
+  <section id="video">
+    <h2>Video & Script Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="card">
+        <h3>Explainer Video Title</h3>
+        <p>Role: Script + Voiceover</p>
+        <a href="https://youtube.com" target="_blank">Watch</a>
+      </div>
+      <!-- Add more videos/scripts -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Let’s work together or talk ideas. Reach out below.</p>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Morgan Isadia. Built with 💻 + ☕</p>
+  </footer>
+</body>
+</html>
