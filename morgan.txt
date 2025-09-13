@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morgan Isadia | Web3 Writer & Creator</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a professional look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Main background with a subtle, tech theme */
+            background-image: url('https://placehold.co/1920x1080/0e172a/60a5fa?text=Futuristic+Crypto+Coins');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        /* Smooth scrolling for navigation links */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Overlay to ensure text readability on the background image */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-white">
+
+    <!-- Header Section -->
+    <header class="bg-gray-900 bg-opacity-80 backdrop-blur-sm text-white py-12 text-center shadow-lg">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl sm:text-5xl font-bold tracking-tight">Morgan Isadia</h1>
+            <p class="mt-2 text-lg sm:text-xl font-light">Web3 & Crypto Writer | Video Creator | Scriptwriter</p>
+            <nav class="mt-6">
+                <a href="#about" class="mx-2 sm:mx-4 text-gray-300 hover:text-white transition-colors duration-300">About</a>
+                <a href="#writing" class="mx-2 sm:mx-4 text-gray-300 hover:text-white transition-colors duration-300">Writing</a>
+                <a href="#video" class="mx-2 sm:mx-4 text-gray-300 hover:text-white transition-colors duration-300">Video & Scripts</a>
+                <a href="#contact" class="mx-2 sm:mx-4 text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 text-center text-white">
+        <div class="container mx-auto max-w-4xl bg-gray-900 bg-opacity-60 backdrop-blur-sm p-8 rounded-xl shadow-lg border border-gray-700">
+            <h2 class="text-3xl font-bold mb-6 text-white">About Me</h2>
+            <p class="text-lg leading-relaxed">I’m a passionate writer focused on Web3, blockchain, and emerging crypto trends, with a creative edge in video storytelling and scriptwriting. I turn complex topics into engaging, human-centered content.</p>
+        </div>
+    </section>
+
+    <!-- Writing Portfolio Section -->
+    <section id="writing" class="py-16 px-4 text-gray-800">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-10 text-white">Writing Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Placeholder Article Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                    <img src="https://placehold.co/600x400/1e293b/94a3b8?text=Digital+Finance" alt="Thumbnail for digital finance article" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">Title of Web3 Article</h3>
+                    <p class="mt-2 text-sm text-gray-600">Short description of what it's about (e.g., "Exploring DeFi Trends in 2025").</p>
+                    <a href="#" class="mt-4 inline-block text-blue-600 hover:text-blue-800 font-medium">Read Article →</a>
+                </div>
+                <!-- Placeholder Article Card 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                    <img src="https://placehold.co/600x400/334155/e2e8f0?text=Blockchain+Security" alt="Thumbnail for blockchain security article" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">Another Blog Post Title</h3>
+                    <p class="mt-2 text-sm text-gray-600">A deep dive into the security aspects of smart contracts and how to mitigate risks.</p>
+                    <a href="#" class="mt-4 inline-block text-blue-600 hover:text-blue-800 font-medium">Read Article →</a>
+                </div>
+                <!-- Placeholder Article Card 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                    <img src="https://placehold.co/600x400/475569/f1f5f9?text=NFT+Art" alt="Thumbnail for NFT art" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">Guide to NFTs for Beginners</h3>
+                    <p class="mt-2 text-sm text-gray-600">A beginner-friendly guide to understanding and trading non-fungible tokens.</p>
+                    <a href="#" class="mt-4 inline-block text-blue-600 hover:text-blue-800 font-medium">Read Article →</a>
+                </div>
+                <!-- Placeholder Article Card 4 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                    <img src="https://placehold.co/600x400/525252/fafafa?text=Decentralized+Identity" alt="Thumbnail for decentralized identity article" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">Decentralized Identity</h3>
+                    <p class="mt-2 text-sm text-gray-600">Examining how blockchain can create more secure and private digital identities.</p>
+                    <a href="#" class="mt-4 inline-block text-blue-600 hover:text-blue-800 font-medium">Read Article →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video & Script Portfolio Section -->
+    <section id="video" class="py-16 px-4 text-gray-800">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-10 text-white">Video & Script Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Placeholder Video Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                    <img src="https://placehold.co/600x400/374151/d1d5db?text=Animated+Explainer" alt="Thumbnail for video explainer" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">Explainer Video Title</h3>
+                    <p class="mt-2 text-sm text-gray-600">Role: Script + Voiceover</p>
+                    <a href="https://www.youtube.com" target="_blank" class="mt-4 inline-block text-blue-600 hover:text-blue-800 font-medium">Watch on YouTube →</a>
+                </div>
+                <!-- Placeholder Video Card 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                    <img src="https://placehold.co/600x400/4b5563/d1d5db?text=Script+Page" alt="Thumbnail for script writing" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">Project Demo Script</h3>
+                    <p class="mt-2 text-sm text-gray-600">A script for a tech demonstration video focusing on a new decentralized app.</p>
+                    <a href="#" class="mt-4 inline-block text-blue-600 hover:text-blue-800 font-medium">Read Script →</a>
+                </div>
+                <!-- Placeholder Video Card 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                    <img src="https://placehold.co/600x400/6b7280/e5e7eb?text=Podcast+Intro+Script" alt="Thumbnail for podcast script" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">Podcast Intro Script</h3>
+                    <p class="mt-2 text-sm text-gray-600">A short script written for a new podcast series on the future of NFTs.</p>
+                    <a href="#" class="mt-4 inline-block text-blue-600 hover:text-blue-800 font-medium">Read Script →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-16 px-4">
+        <div class="container mx-auto max-w-xl bg-gray-900 bg-opacity-60 backdrop-blur-sm p-8 rounded-xl shadow-lg border border-gray-700">
+            <h2 class="text-3xl font-bold text-center mb-6 text-white">Contact Me</h2>
+            <p class="text-center text-gray-300 mb-8">Let’s work together or talk ideas. Reach out below.</p>
+            <form action="https://formspree.io/f/yourformid" method="POST" class="space-y-4">
+                <input type="text" name="name" placeholder="Your name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800">
+                <input type="email" name="email" placeholder="Your email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800">
+                <textarea name="message" placeholder="Your message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800"></textarea>
+                <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 bg-opacity-80 backdrop-blur-sm text-gray-300 py-6 text-center text-sm">
+        <p>© 2025 Morgan Isadia. Built with 💻 + ☕</p>
+    </footer>
+
+</body>
+</html>
